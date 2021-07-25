@@ -1,0 +1,167 @@
+
+*{
+
+    box-sizing: border-box;
+}
+
+
+
+header{
+    font-family: 'Roboto';
+    position: relative;
+height: 70px;
+    background-color: 
+rgba(64, 34, 24,0.7);
+}
+
+header h1 {
+
+position: absolute;
+    color: white;
+    text-align: center;
+
+    font-size: 30px;
+    right: 45%;
+    bottom: 30%;
+}
+
+
+body{
+
+    background-image: url('https://peoriaparks.org/wp-content/uploads/2017/12/BookCourt_iStock-690358116-e1515177346323.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#table{
+    border-radius: 3px;
+
+    margin: 60px;
+    margin-left: 55px;
+position: relative;
+    /* border: solid white; */
+    width: 500px;
+    height: 100px;
+    color: white;
+}
+
+#table th {
+
+    height: 15px;
+    font-size: 20px;
+    border: solid white 1px;
+    
+
+}
+#table td {
+    border: solid white 1px;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+
+body{
+
+    /* background-image: url('https://peoriaparks.org/wp-content/uploads/2017/12/BookCourt_iStock-690358116-e1515177346323.jpg'); */
+    background-attachment: fixed;
+}
+#left{
+    position: absolute;
+  left: 5%;
+    width: 40%;
+    margin-top: 5%;
+
+}
+#right{
+    border-radius: 3px;
+
+    background-color:rgba(104, 81, 73, 0.7);
+
+    margin-top: 5%;
+
+    position: absolute;
+    /* background-color: royalblue; */
+   
+    width: 40%;
+    right: 10%;
+    margin-left: 60px;
+
+}
+main{
+    position: relative;
+    font-family: 'Roboto';
+}
+#main-form {
+    border-radius: 3px;
+background-color: 
+rgba(64, 34, 24,0.7);
+;
+position: relative;
+
+height: 100px;
+}
+
+ #book-name{
+    position: absolute;
+    left: 10%;
+    top: 8%;
+    color: white;
+    font-size: 23px;
+
+}
+#price{
+    position: absolute;
+    left: 10%;
+    top: 40%;
+    color: white;
+    font-size: 23px;
+
+
+
+}
+#book-name-input {
+    position: absolute;
+    width: 50%;
+    right: 10%;
+    top: 8%;
+
+}
+
+#price-list {
+    top: 38%;
+    position: absolute;
+    width: 50%;
+    right: 10%;
+    
+
+}
+
+#button{
+    color: white;
+background-color: #C68B59;
+    position: absolute;
+    width: 50%;
+    right: 10%;
+    top: 70%;
+}
+footer{
+
+    background-color:rgba(104, 81, 73, 0.7); 
+    height: 60px;
+    position: relative;
+    top: 607px;
+    color: white;
+    font-size: 15PX;
+   }
+
+footer h2{
+position: absolute;
+right: 50%;
+bottom: 40%
+}
+
+#right p {
+
+    color: white;
+    text-align: center;
+}
